@@ -1,0 +1,8 @@
+
+{
+  "name": "ProResume - AI-Powered Resume Builder",
+  "description": "A comprehensive, high-performance resume builder featuring 10+ ATS-friendly templates, AI-powered summary generation, and high-quality PDF exports.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
