@@ -243,27 +243,9 @@ const App: React.FC = () => {
             </div>
           </section>
         </main>
-
-        <footer className="bg-white dark:bg-slate-950 py-20 px-6 border-t border-slate-100 dark:border-slate-900">
-          <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center shadow-md">
-                <FileText className="text-white w-4 h-4" />
-              </div>
-              <span className="font-black text-xl tracking-tighter text-slate-900 dark:text-white uppercase">ProResume</span>
-            </div>
-            <div className="flex items-center gap-8 text-sm font-bold text-slate-400 uppercase tracking-widest">
-              <a href="#" className="hover:text-indigo-600 transition-colors">Templates</a>
-              <a href="#" className="hover:text-indigo-600 transition-colors">Privacy</a>
-              <a href="#" className="hover:text-indigo-600 transition-colors">Terms</a>
-            </div>
-            <p className="text-slate-400 font-bold text-sm">&copy; 2024 PRORESUME. ALL RIGHTS RESERVED.</p>
-          </div>
-        </footer>
       </div>
     );
   }
-
   if (step === 'template-selection') {
     return (
       <div className={`min-h-screen ${isDarkMode ? 'dark' : ''} bg-slate-50 dark:bg-slate-950 flex flex-col transition-colors duration-300`}>
