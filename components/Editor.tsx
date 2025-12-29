@@ -112,7 +112,6 @@ export const Editor: React.FC<EditorProps> = ({ data, onChange }) => {
 
   return (
     <div className="p-8 space-y-10 pb-20 dark:bg-slate-900 transition-colors duration-300">
-      {/* Profile Section */}
       <section>
         <div className="flex items-center gap-2 mb-4">
           <User className="text-blue-600 dark:text-blue-400" size={20} />
@@ -186,7 +185,6 @@ export const Editor: React.FC<EditorProps> = ({ data, onChange }) => {
         </div>
       </section>
 
-      {/* Summary Section */}
       <section>
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
@@ -324,7 +322,6 @@ export const Editor: React.FC<EditorProps> = ({ data, onChange }) => {
         </div>
       </section>
 
-      {/* Skills Section */}
       <section>
         <div className="flex items-center gap-2 mb-4">
           <Code className="text-blue-600 dark:text-blue-400" size={20} />
@@ -352,8 +349,6 @@ export const Editor: React.FC<EditorProps> = ({ data, onChange }) => {
           />
         </div>
       </section>
-
-      {/* Education Section */}
       <section>
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
