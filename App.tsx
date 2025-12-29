@@ -138,7 +138,6 @@ const App: React.FC = () => {
   if (step === 'landing') {
     return (
       <div className={`min-h-screen ${isDarkMode ? 'dark' : ''} bg-white dark:bg-slate-950 flex flex-col font-sans selection:bg-blue-100 transition-colors duration-500`}>
-        {/* Navigation */}
         <nav className="h-20 px-6 md:px-12 flex items-center justify-between sticky top-0 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md z-50 border-b border-slate-100 dark:border-slate-800">
           <div className="flex items-center gap-3 group cursor-pointer">
             <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center shadow-lg shadow-indigo-200 transition-transform group-hover:scale-110">
@@ -163,7 +162,6 @@ const App: React.FC = () => {
         </nav>
 
         <main className="flex-1">
-          {/* Hero Section */}
           <section className="relative pt-20 pb-32 px-6 overflow-hidden">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_50%_20%,_rgba(99,102,241,0.15),_transparent_60%)] pointer-events-none"></div>
             
@@ -194,7 +192,6 @@ const App: React.FC = () => {
                 </div>
               </div>
 
-              {/* Floating Preview Image */}
               <div className="mt-24 relative w-full max-w-5xl group">
                 <div className="absolute inset-0 bg-indigo-500/20 blur-[120px] rounded-full scale-75 group-hover:scale-100 transition-transform duration-1000"></div>
                 <div className="relative bg-white dark:bg-slate-900 p-2 rounded-[2rem] border border-slate-200 dark:border-slate-800 shadow-2xl overflow-hidden aspect-video flex items-center justify-center">
@@ -219,8 +216,6 @@ const App: React.FC = () => {
               </div>
             </div>
           </section>
-
-          {/* Features Grid */}
           <section className="py-32 bg-slate-50 dark:bg-slate-900/50 border-y border-slate-200 dark:border-slate-800">
             <div className="max-w-7xl mx-auto px-6">
                <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
