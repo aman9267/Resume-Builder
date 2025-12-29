@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { ResumeData } from '../../types';
-import { Mail, Phone, MapPin, Globe, Shield, Calendar } from 'lucide-react';
+import { Mail, Phone, MapPin, Shield } from 'lucide-react';
 
 interface TemplateProps {
   data: ResumeData;
@@ -22,9 +22,7 @@ interface ThemeConfig {
   dark?: Partial<ThemeConfig>;
 }
 
-// MASSIVE THEME MAP (Combined Palettes & Layouts)
 export const THEMES: Record<string, ThemeConfig> = {
-  // --- BASE THEMES ---
   modern: { primary: 'bg-indigo-600', secondary: 'text-indigo-600', accent: 'bg-indigo-50', bg: 'bg-white', text: 'text-slate-900', sidebar: 'bg-indigo-900', font: 'font-sans', layout: 'sidebar-left' },
   minimal: { primary: 'bg-slate-900', secondary: 'text-slate-900', accent: 'bg-slate-50', bg: 'bg-white', text: 'text-slate-900', sidebar: 'bg-slate-100', font: 'font-sans', layout: 'minimal' },
   executive: { primary: 'bg-blue-900', secondary: 'text-blue-900', accent: 'bg-blue-50', bg: 'bg-white', text: 'text-slate-900', sidebar: 'bg-blue-950', font: 'font-serif', layout: 'sidebar-left' },
