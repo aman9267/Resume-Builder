@@ -26,7 +26,6 @@ const TEMPLATES: { id: TemplateId; name: string; desc: string; badge?: string; b
   { id: 'top-header-1', name: 'Top Banner', desc: 'Banner style header' },
   { id: 'centered-1', name: 'Classic Center', desc: 'Centered typography' },
   { id: 'bento-1', name: 'Bento UI', desc: 'Card-based layout' },
-  // ... another 100 themes follow the naming pattern in types.ts
   { id: 'azure', name: 'Azure', desc: 'Ocean deep blue' },
   { id: 'forest', name: 'Forest', desc: 'Natural emerald' },
   { id: 'crimson', name: 'Crimson', desc: 'Powerful rose' },
@@ -35,7 +34,6 @@ const TEMPLATES: { id: TemplateId; name: string; desc: string; badge?: string; b
   { id: 'minimal-dark', name: 'Minimal Dark', desc: 'Sleek dark mode' },
 ];
 
-// Dynamically inject the remaining 90+ themes for the selector
 const ALL_TEMPLATES = [...TEMPLATES];
 const placeholders = ['impact', 'alpha', 'omega', 'zen', 'global', 'heritage', 'clean', 'smart', 'elite', 'professional'];
 placeholders.forEach(p => {
